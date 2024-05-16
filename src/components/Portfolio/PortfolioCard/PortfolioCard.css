@@ -1,0 +1,106 @@
+.portfolio__project {
+    position: relative;
+    width: 100%;
+    max-width: 35rem;
+    justify-self: center;
+    overflow: hidden;
+    border-radius: 1.5rem;
+    background-color: #3f396d;
+  }
+
+  .portfolio__project img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .portfolio__info {
+    position: absolute;
+    bottom: -100%;
+    padding: 2rem;
+    transition: 0.4s ease-in-out;
+  }
+  
+  .portfolio__title {
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+  }
+  
+  .portfolio__description {
+    overflow: hidden;
+    color: #fff;
+  }
+  
+  .portfolio__link {
+    position: absolute;
+    top: 2rem;
+    right: -100%;
+    width: 3rem;
+    height: 3rem;
+    background-color: #fff;
+    color: #3f396d;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    transition: 0.4s ease-in-out;
+  }
+
+  .link1 {
+    top: 2rem;
+    right: -100%;
+  }
+  .link2 {
+    top: 2rem;
+    left: -100%;
+  }
+  
+  .portfolio__link:hover {
+    background-color:  #6751b9;
+    color: #fff;
+  }
+  
+  .portfolio__overlay {
+    background-color:  #a993fe;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: 0.4s ease-in-out;
+  }
+  
+  .portfolio__project:hover .portfolio__overlay {
+    opacity: 0.8;
+  }
+  
+  .portfolio__project:hover .portfolio__info {
+    bottom: 0;
+  }
+  
+  .portfolio__project:hover .link1 {
+    right: 2rem;
+  }
+  .portfolio__project:hover .link2 {
+    left: 2rem;
+  }
+
+  @media (max-width: 600px) {
+    .portfolio__link {
+        width: 2.5rem;
+        height: 2rem;
+        font-size: 1rem;
+    }
+    .portfolio__title {
+        font-size: 0.8rem;
+      }
+      .portfolio__project:hover .link1 {
+        right: 1rem;
+      }
+      .portfolio__project:hover .link2 {
+        left: 1rem;
+      }
+  }
