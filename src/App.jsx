@@ -7,6 +7,7 @@ import LearningExperience from './components/LearningExperience/LearningExperien
 import Portfolio from './components/Portfolio/Portfolio'
 import ContactMe from './components/ContactMe/ContactMe'
 import Footer from './components/Footer/Footer'
+import 'remixicon/fonts/remixicon.css'
 
 const App = () => {
   return (

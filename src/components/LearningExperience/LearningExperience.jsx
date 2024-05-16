@@ -15,8 +15,7 @@ const LearningExperience = () => {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    prevArrow: <div className="arrows-left" onClick={() => sliderRef.current.slickPrev()}><i className="ri-arrow-left-s-line"></i></div>,
-    nextArrow: <div className="arrows-right" onClick={() => sliderRef.current.slickNext()}><i className="ri-arrow-right-s-line"></i></div>,
+    arrows: true,
     responsive: [
       {
         breakpoint: 769,
@@ -44,3 +43,4 @@ const LearningExperience = () => {
 };
 
 export default LearningExperience;
+

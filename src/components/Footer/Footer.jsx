@@ -50,7 +50,7 @@ const Footer = () => {
                 </ul>
             </div>
         </div>
-        <div class="footer__copyright container">
+        <div className="footer__copyright container">
             <p>© Copyright 2023 Syehan Code. All Rights Reserved</p>
         </div>
     </footer>
