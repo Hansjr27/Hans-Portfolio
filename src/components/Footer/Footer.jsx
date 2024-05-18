@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
@@ -9,19 +10,29 @@ const Footer = () => {
                 <h4 className="footer__name">Syehan Safaril Mujib</h4>
                 <ul className="footer__list">
                     <li className="footer__item">
-                        <a href="" className="footer__link">Home</a>
+                        <Link className="footer__link" to="hero" spy={true} smooth={true} offset={5} duration={500}>
+                            Home
+                        </Link>
                     </li>
                     <li className="footer__item">
-                        <a href="" className="footer__link">Skills</a>
+                        <Link className="footer__link" to="skills" spy={true} smooth={true} offset={5} duration={500}>
+                            Skills
+                        </Link>
                     </li>
                     <li className="footer__item">
-                        <a href="" className="footer__link">Learning Experience</a>
+                        <Link className="footer__link" to="learning" spy={true} smooth={true} offset={5} duration={500}>
+                            LearningExperience
+                        </Link>
                     </li>
                     <li className="footer__item">
-                        <a href="" className="footer__link">Portfolio</a>
+                        <Link className="footer__link" to="portfolio" spy={true} smooth={true} offset={5} duration={500}>
+                            Portfolio
+                        </Link>
                     </li>
                     <li className="footer__item">
-                        <a href="" className="footer__link">Contact</a>
+                        <Link className="footer__link" to="contact" spy={true} smooth={true} offset={5} duration={500}>
+                            Contact
+                        </Link>
                     </li>
                 </ul>
                 <ul className="social__list">

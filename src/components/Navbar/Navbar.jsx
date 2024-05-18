@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import MobileNav from '../MobileNav/MobileNav';
 import './Navbar.css';
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -16,19 +17,29 @@ const Navbar = () => {
         <img src="/assets/img/Nav-logo.png" alt="" />
         <ul>
           <li>
-            <a href="/" className="menu-item">Home</a>
+            <Link className="menu-item" to="hero" spy={true} smooth={true} offset={5} duration={500}>
+            Home
+          </Link>
           </li>
           <li>
-            <a href="/" className="menu-item">skills</a>
+            <Link className="menu-item" to="skills" spy={true} smooth={true} offset={5} duration={500}>
+            Skills
+          </Link>
           </li>
           <li>
-            <a href="/" className="menu-item">Learning Experience</a>
+            <Link className="menu-item" to="learning" spy={true} smooth={true} offset={5} duration={500}>
+            LearningExperience
+          </Link>
           </li>
           <li>
-            <a href="/" className="menu-item">Portfolio</a>
+          <Link className="menu-item" to="portfolio" spy={true} smooth={true} offset={5} duration={500}>
+            Portfolio
+          </Link>
           </li>
           <li>
-            <a href="/" className="menu-item">Contact</a>
+            <Link className="menu-item" to="contact" spy={true} smooth={true} offset={5} duration={500}>
+            Contact
+          </Link>
           </li>
 
           <button className="contact-btn" onClick={() => {}}>Hire Me</button>

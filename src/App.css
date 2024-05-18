@@ -4,6 +4,19 @@
   position: relative;
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6751b9;
+  border-radius: 10px;
+}
+
 @media (max-width: 1300px) {
   .container {
       padding: 0 1.5rem;

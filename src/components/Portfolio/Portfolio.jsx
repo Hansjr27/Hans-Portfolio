@@ -5,7 +5,7 @@ import PortfolioCard from './PortfolioCard/PortfolioCard'
 
 const Portfolio = () => {
   return (
-    <section className="portfolio-container">
+    <section className="portfolio-container" id="portfolio">
       <h5>My Portfolio</h5>
       <div className="porfolio-content">
         <div className="portfolio">

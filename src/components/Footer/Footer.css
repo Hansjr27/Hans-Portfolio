@@ -46,6 +46,7 @@
   .footer__link {
     color: #b8bbc7;
     transition: 0.4s ease-in-out;
+    cursor: pointer;
   }
   
   .footer__link:hover {
