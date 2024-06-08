@@ -157,5 +157,12 @@ export const PORTFOLIO = [
     github: "https://github.com/Hansjr27/Kakulator-BMI.git",
     deskripsi: "This is a school assignment project, namely making a BMI calculator. This project was created using HTML, CSS and PHP technology",
   },
+  {
+    title: "Hanstrip",
+    img: "/assets/img/portfolio/hanstrip.png",
+    view: "https://hanstripcuy.000webhostapp.com/",
+    github: "https://github.com/Hansjr27/hanstrip.git",
+    deskripsi: "This is my first website that uses frontend and backend, the technologies I use are HTML, CSS, Bootstrap, Tallwind, Javascript, and PHP Native.",
+  },
   
 ];
