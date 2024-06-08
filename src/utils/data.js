@@ -153,7 +153,7 @@ export const PORTFOLIO = [
   {
     title: "Kalkulator BMI",
     img: "/assets/img/portfolio/kalkulator-bmi-php.png",
-    view: "http://syehancuy27.rf.gd/",
+    view: "https://bmi-cuy.000webhostapp.com/",
     github: "https://github.com/Hansjr27/Kakulator-BMI.git",
     deskripsi: "This is a school assignment project, namely making a BMI calculator. This project was created using HTML, CSS and PHP technology",
   },
