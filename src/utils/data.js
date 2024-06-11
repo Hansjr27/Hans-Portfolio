@@ -160,7 +160,7 @@ export const PORTFOLIO = [
   {
     title: "Hanstrip",
     img: "/assets/img/portfolio/hanstrip.png",
-    view: "https://hanstripcuy.000webhostapp.com/",
+    view: "https://hanstripproject.000webhostapp.com/",
     github: "https://github.com/Hansjr27/hanstrip.git",
     deskripsi: "This is my first website that uses frontend and backend, the technologies I use are HTML, CSS, Bootstrap, Tallwind, Javascript, and PHP Native.",
   },
