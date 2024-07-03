@@ -4,7 +4,7 @@ import './ContactForm.css'
 const ContactForm = () => {
   return (
     <div className="contact-from-content">
-        <form action="">
+        <form action="https://formspree.io/f/xqazkbzv" method="POST">
             <div className="name-container">
                 <input type="text" name="firstname" placeholder="First Name"/>
                 <input type="text" name="lastname" placeholder="Last Name"/>
