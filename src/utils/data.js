@@ -165,7 +165,7 @@ export const PORTFOLIO = [
     deskripsi: "This is my first website that uses frontend and backend, the technologies I use are HTML, CSS, Bootstrap, Tallwind, Javascript, and PHP Native.",
   },
   {
-    title: "Hanstrip",
+    title: "API Film Populer",
     img: "/assets/img/portfolio/api-film.png",
     view: "https://api-film-consume.vercel.app/",
     github: "https://github.com/Hansjr27/API-film-consume.git",
