@@ -7,12 +7,14 @@ export const SKILLS = [
       { skill: "CSS", percentage: "50%" },
       { skill: "JAVASCRIPT", percentage: "50%" },
       { skill: "REACT", percentage: "10%" },
+      { skill: "NEXT JS", percentage: "5%" },
     ],
   },
   {
     title: "BackEnd",
     icon: "./assets/img/skills/backend-icon.png",
     Skills: [{ skill: "PHP", percentage: "50%" }],
+    Skills: [{ skill: "Express Js", percentage: "10%" }],
   },
   {
     title: "Tools",
