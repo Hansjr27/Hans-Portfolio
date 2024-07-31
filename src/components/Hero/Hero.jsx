@@ -52,7 +52,7 @@ const Hero = () => {
         <div>
           <div className="icons-bahasa-column">
             <div className="tech-icon">
-              <img src="/assets/img/react.svg" alt="" width={50} />
+              <img src="/assets/img/javascript-logo.svg" alt="" width={50} />
             </div>
           </div>
           <img className="image-hero" src="/assets/img/Hans-home.png" alt="" />
@@ -60,22 +60,22 @@ const Hero = () => {
         <div className="icons-bahasa-row">
           <div>
             <div className="tech-icon">
-              <img src="/assets/img/html-logo.svg" alt="" width={50} />
+              <img src="/assets/img/react.svg" alt="" width={50} />
             </div>
           </div>
           <div>
             <div className="tech-icon">
-              <img src="/assets/img/css-logo.svg" alt="" width={50} />
+              <img src="/assets/img/next-js.svg" alt="" width={50} />
             </div>
           </div>
           <div>
             <div className="tech-icon">
-              <img src="/assets/img/javascript-logo.svg" alt="" width={50} />
+              <img src="/assets/img/pngwing.com.png " alt="" width={50} />
             </div>
           </div>
           <div>
             <div className="tech-icon">
-              <img src="/assets/img/bootstrap-5-1.svg" alt="" width={60} />
+              <img src="/assets/img/Tailwind_CSS_Logo.svg" alt="" width={60} />
             </div>
           </div>
         </div>

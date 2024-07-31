@@ -7,7 +7,8 @@ const ContactMeCard = ({ iconUrl, text }) => {
         <div className="icon">
             <img src={iconUrl} alt={text} />
         </div>
-        <p>{text}</p>
+
+        <a href="https://github.com/Hansjr27" target='blank'><p>{text}</p></a>
     </div>
   )
 }

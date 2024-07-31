@@ -1,7 +1,7 @@
 import React from 'react'
 import './PortfolioCard.css'
 
-const PortfolioCard = ({ title, imgUrl, deskripsi, viewUrl, codeUrl }) => {
+const PortfolioCard = ({ title, imgUrl, teknologi,  deskripsi, viewUrl, codeUrl }) => {
   return (
         <div className="portfolio__project">
         <div className="portfolio__overlay"></div>

@@ -17,7 +17,7 @@ const ContactMe = () => {
           />
           <ContactMeInfoCard
             iconUrl="./assets/img/github-fill.svg"
-            text="nakihansjr@gmail.com"
+            text="https://github.com/Hansjr27"
           />
         </div>
         <div style={{ flex: 1 }}>
