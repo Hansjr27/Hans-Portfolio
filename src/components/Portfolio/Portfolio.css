@@ -29,13 +29,53 @@
 .portfolio-container h5 {
     font-size: 1.5rem;
     font-weight: 600;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .portfolio {
     display: grid;
     gap: 3rem;
 }
+
+
+.portfolio-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Base button styles */
+  .portfolio-buttons .btn {
+    background-color: transparent;
+    border: 2px solid #4c4f8c;
+    color: #4c4f8c;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .portfolio-buttons .btn:hover {
+    background-color: #4c4f8c;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(76, 79, 140, 0.4);
+  }
+
+  .portfolio-buttons .btn.active {
+    background-color: #4c4f8c;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(76, 79, 140, 0.6);
+    border: none;
+  }
+  
+  .portfolio-buttons .btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(76, 79, 140, 0.4);
+  }
+  
 
 @media screen and (min-width: 768px) {
 

@@ -181,3 +181,36 @@ export const PORTFOLIO = [
   },
   
 ];
+
+export const UIUX = [
+  {
+    title: "BANK FIFO",
+    img: "./assets/img/UIUX-Project/Bank-FIFO.png",
+    view: "https://www.figma.com/design/d0QeGOZwL3gYtOF5WLVMK3/BANK-FIFO?node-id=3-1496&t=NHyC8dsr7Nof0AKG-1",
+    deskripsi: "Design UI/UX BANK FIFO, Saya mengerjakan UI/UX Bank Fifo ini tugas dari sekolah.",
+  },
+  {
+    title: "DEHANS COMERCE",
+    img: "./assets/img/UIUX-Project/Dehans-comerce.png",
+    view: "https://www.figma.com/design/UGt0mD3aw23jzvEDvjnU7O/Dehans-Commerce?node-id=1-2&t=YfAmBEf53ZfTqUOi-1",
+    deskripsi: "Design UI/UX Dehans Comerce, Saya mengerjakan UI/UX Bank Fifo ini tugas dari sekolah.",
+  },
+  {
+    title: "Note App",
+    img: "./assets/img/UIUX-Project/Noteapp.png",
+    view: "https://www.figma.com/design/TkfI8K1QIumeOtUP9EnuVM/Note.App?node-id=3-3543&t=xvUed89TAhPK4mEa-1",
+    deskripsi: "Design UI/UX Note App, Saya mengerjakan UI/UX Note App ini Gambaran Buat Project Web Note App dikerjakan di tempat PKL",
+  },
+  {
+    title: "LPDO DISDIK",
+    img: "./assets/img/UIUX-Project/lpdo-disdik.png",
+    view: "https://www.figma.com/design/alG2VrzqEOX3598VRhSDN5/LPDO-DISDIK?node-id=424-2&t=1fMYwN6AWtEjKrUK-1",
+    deskripsi: "Design UI/UX LPDO DISDIK, Saya mengerjakan UI/UX LPDO Disdik ini Gambaran Buat Project Web LPDO Disdik dikerjakan di tempat PKL",
+  },
+  {
+    title: "FORM PELAPORAN BENCANA",
+    img: "./assets/img/UIUX-Project/form-pelaporan-bencana.png",
+    view: "https://www.figma.com/design/8nYYwHGH4OFCbZP0I8FcrJ/Form-Pelaporan-Bencana?node-id=57-2&t=QFCCZi7O4GCEaKmR-1",
+    deskripsi: "Design UI/UX FORM PELAPORAN BENCANA, Saya mengerjakan UI/UX Form Pelaporan Bencana ini Gambaran Buat Project Web Form Pelaporan Bencana dikerjakan di tempat PKL",
+  },
+];

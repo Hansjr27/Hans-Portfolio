@@ -116,6 +116,10 @@ color: #b8bbc7;
     margin-top: 5rem;
 }
 
+.image-hero {
+    border-radius: 2rem;
+}
+
 .hero-img > div {
     display: flex;
     align-items: flex-end;
